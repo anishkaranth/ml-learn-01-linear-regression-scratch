@@ -1,0 +1,19 @@
+{
+  "dataset": "synthetic 1D linear (n=100, noise_std=0.8, seed=42)",
+  "true_params": {
+    "w": 2.5,
+    "b": -1.0
+  },
+  "gradient_descent": {
+    "w": 2.5102,
+    "b": -1.0104,
+    "final_mse": 0.6137,
+    "lr": 0.05,
+    "epochs": 200
+  },
+  "closed_form_lstsq": {
+    "w": 2.5102,
+    "b": -1.0104,
+    "mse": 0.6137
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-09-18T08:16:53.626213+00:00",
+  "repo": "anishkaranth/ml-learn-01-linear-regression-scratch",
+  "command": "python linear_regression_scratch.py",
+  "metrics": {
+    "dataset": "synthetic 1D linear (n=100, noise_std=0.8, seed=42)",
+    "true_params": {
+      "w": 2.5,
+      "b": -1.0
+    },
+    "gradient_descent": {
+      "w": 2.5102,
+      "b": -1.0104,
+      "final_mse": 0.6137,
+      "lr": 0.05,
+      "epochs": 200
+    },
+    "closed_form_lstsq": {
+      "w": 2.5102,
+      "b": -1.0104,
+      "mse": 0.6137
+    }
+  }
+}
